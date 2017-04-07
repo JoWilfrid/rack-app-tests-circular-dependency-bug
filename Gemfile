@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-gem 'rack-app', '~> 5.12'
+gem 'rake'
+gem 'rack-app', ">= 6.4.1"
 
 group :test do
-  gem 'rack-test'
+  gem 'minitest'
 end
