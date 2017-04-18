@@ -1,4 +1,4 @@
-# Rack::App circular dependency bug while testing
+# [Fixed] Rack::App circular dependency bug while testing
 
 Sample app as proof of bug.
 
